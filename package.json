@@ -1,0 +1,18 @@
+{
+  "name": "marpslides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "marp --html --server .",
+    "build": "marp --html --pdf --allow-local-files --title 'スライドのタイトル' ./slides/*/index.md -o ./dist/slide.pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "@marp-team/marp-core": "^3.9.0",
+    "prettier": "^3.3.2"
+  }
+}

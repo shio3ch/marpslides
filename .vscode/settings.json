@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSaveMode": "file",
+  "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss-SS",
+  "pasteImage.insertPattern": "${imageSyntaxPrefix}./images/${imageFileName}${imageSyntaxSuffix}",
+  "pasteImage.path": "${currentFileDir}/images"
+}
